@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ATS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap/bootstrap.min.css">
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../../js/app/formato_ATS.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+
+            <div class="col-6">
+                <figure class="figure">
+                    <img class="figure-mn img-fluid rounded" src="../../img/icons/camara.png" align="middle">
+                </figure>
+            </div>
+            <div class="col-6">
+                <figure>
+                    <img class="figure-mn img-fluid rounded" src="../../img/icons/camara.png">
+                </figure>
+            </div>
+
+        <div class="col-12">
+            <h5>ANÁLISIS DE TRABAJO SEGURO - ATS</h5>
+        </div>
+        <div class="col-4">Versión 1.0</div>
+        <div class="col-2">Fecha:</div>
+        <div class="col-6">
+            <input type="date" class="form-control" id="fecha" placeholder="dd/mm/aa">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4">TRABAJO A REALIZAR:</div>
+        <div class="col-8">
+            <input type="text" class="form-control" id="actividad">
+        </div>
+        <div class="col-7">SITE NAME / UBICACIÓN:</div>
+        <div class="col-5">
+            <input type="text" class="form-control" id="site-name">
+        </div>
+        <div class="col-2">SITE ID:</div>
+        <div class="col-4">
+            <input type="text" class="form-control" id="site-id">
+        </div>
+        <div class="col-2">ÁREA:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckboxa" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">SALA</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckboxb" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">TORRE</label>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="col-12">* Según aplique, Marque SÍ o NO</div>
+    <br>
+    <div class="row ">
+        <div class="col-12">REQUISITOS PARA LA EJECUCIÓN DEL TRABAJO</div>
+        <br>
+        <div class="col-8">Se inspeccionó el área de trabajo:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div>
+            <hr>
+        </div>
+        <div class="col-8">Se inspeccionó herramientas:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Se señalizó y delimitó el área de trabajo:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Se inspeccionó EPPs:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Sistema de bloqueo y señalización (lock out/tag out):</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Se realizó el Permiso de trabajo:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="col-12">EQUIPO DE PROTECCIÓN PERSONAL BÁSICO</div>
+        <br>
+        <div class="col-8">Botas c/punta de acero:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Botas dieléctricas:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Casco de seguridad:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Barbiquejo:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Protectores auditivos:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Mascarilla para polvo:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Mascarilla para gases:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Lentes de seguridad:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Guantes de cuero/badana:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Guantes dieléctricos:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-8">Ropa de protección personal:</div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+        <div class="col-2">Otro:</div>
+        <div class="col-6">
+            <input type="text" class="form-control" id="otro">
+        </div>
+        <div class="col-4">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox"  value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div><hr>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-12">ANÁLISIS DE TRABAJO SEGURO</div>
+            <div class="col-4">Pasos del trabajo</div>
+            <div class="col-4">Peligros y riesgos asociados</div>
+            <div class="col-4">Medidas de control</div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <br>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <br>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <br>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <br>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" >
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">Responsable</div>
+            <div class="col-5">Nombres y Apellidos</div>
+            <div class="col-3">Firma</div>
+            <div class="col-4">Quién elabora ATS</div>
+            <div class="col-5">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary firma">Firma</button>
+            </div>
+            <div class="col-4">Validado por Jefe/Supervisor del trabajo</div>
+            <div class="col-5">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary firma">Firma</button>
+            </div>
+            <div class="col-4">Trabajador</div>
+            <div class="col-5">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary firma">Firma</button>
+            </div>
+            <br>
+            <br>
+            <div class="col-4">Trabajador</div>
+            <div class="col-5">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary firma">Firma</button>
+            </div>
+            <br>
+            <br>
+            <div class="col-4">Trabajador</div>
+            <div class="col-5">
+                <input type="text" class="form-control" >
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary firma">Firma</button>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.izibo">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MultipleReporteOperaciones"></activity>
+        <activity android:name=".MultipleReporteSeguridad" />
+        <activity android:name=".CapturarFirma" />
+        <activity android:name=".DocumentacionSeguridad_Charla" />
+        <activity android:name=".ActadeInstalacion_ePMP_1000" />
+        <activity android:name=".DocumentacionSeguridad_ATS" />
+        <activity android:name=".ActadeInstalacion_PTP_450" />
+        <activity android:name=".ActadeInstalacion_9500_MPR" />
+        <activity android:name=".ActadeInstalacion_Omniswitch" />
+        <activity android:name=".EstructuraBase.ItemDocumentacionOperaciones3" />
+        <activity android:name=".EstructuraBase.ItemDocumentacionOperaciones2" />
+        <activity android:name=".Reportes.ActadeInstalacion2" />
+        <activity android:name=".TomarFoto" />
+        <activity android:name=".Extras.PreviewImage" />
+        <activity android:name=".Reportes.ActadeInstalacion" />
+        <activity android:name=".EstructuraBase.ItemDocumentacionOperaciones" />
+        <activity android:name=".EstructuraBase.ItemEquipos3" />
+        <activity android:name=".EstructuraBase.ItemEquipos2" />
+        <activity android:name=".EstructuraBase.ItemRegion3" />
+        <activity android:name=".EstructuraBase.ItemRegion2" />
+        <activity android:name=".EstructuraBase.ItemDocumentacionSeguridad" />
+        <activity android:name=".EstructuraBase.ItemEquipos" />
+        <activity android:name=".EstructuraBase.ItemTecnologias" />
+        <activity android:name=".EstructuraBase.ItemAreas" />
+        <activity android:name=".ItemProyectosBUListView" />
+        <activity android:name=".EstructuraBase.ItemRegion" />
+        <activity android:name=".EstructuraBase.ItemProyectos" />
+        <activity android:name=".EstructuraBase.SeleccionEmpresa" />
+        <activity android:name=".EstructuraBase.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.izibo.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".ActaDeInstalacionWebView"
+            android:label="@string/title_activity_acta_de_instalacion_web_view"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

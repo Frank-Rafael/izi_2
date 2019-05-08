@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">iziBO</string>
+    <string name="tv_bienvenido">¡BIENVENIDO A iziBO!</string>
+    <string name="bt_iniciar">INICIAR</string>
+
+    <string name="tv_selemp">Seleccione Empresa:</string>
+    <string name="bti_mn">MN</string>
+
+    <string name="tv_selpro">Seleccione Proyecto:</string>
+    <string name="bt_p1">REDES REGIONALES (GILAT)</string>
+    <string name="bt_p2">REDES REGIONALES (OROCOM)</string>
+    <string name="bt_p3">IPRAN (CLARO)</string>
+    <string name="bt_p4">BACKHAUL (TDP)</string>
+
+    <string name="tv_selreg">Seleccione Región:</string>
+    <string name="bt_r1">Amazonas</string>
+    <string name="bt_r2">Ica</string>
+    <string name="bt_r3">Junín</string>
+    <string name="bt_r4">Puno</string>
+    <string name="bt_r5">Moquegua</string>
+    <string name="bt_r6">Tacna</string>
+    <string name="bt_r7">Lima</string>
+
+    <string name="tv_selare">Seleccione Área:</string>
+    <string name="bt_a1">OPERACIONES</string>
+    <string name="bt_a2">SEGURIDAD</string>
+
+    <string name="tv_seltec">Seleccione Tecnología:</string>
+    <string name="bt_t1">MW</string>
+    <string name="bt_t2">IP</string>
+    <string name="bt_t3">DWDM</string>
+
+    <string name="tv_selequ">Seleccione Equipo:</string>
+    <string name="cb_e1">9500 MPR</string>
+    <string name="cb_e2">PTP 450</string>
+    <string name="cb_e3">ePMP 1000</string>
+    <string name="cb_e4">Force 180</string>
+    <string name="bt_e1">Siguiente</string>
+
+    <string name="tv_selequ2">Seleccione Equipo:</string>
+    <string name="cb_e5">7210 SAS MxP</string>
+    <string name="cb_e6">7210 SAS T</string>
+    <string name="cb_e7">7210 SAS R6</string>
+    <string name="cb_e8">7750 SRx</string>
+    <string name="cb_e9">OMNISWITCH</string>
+    <string name="bt_e2">Siguiente</string>
+
+    <string name="tv_selequ3">Seleccione Equipo:</string>
+    <string name="cb_e10">PSS 4</string>
+    <string name="bt_e3">Siguiente</string>
+
+    <string name="tv_seldocope">Seleccione Documentación de Operaciones:</string>
+    <string name="bt_do1">Acta de Instalación</string>
+    <string name="bt_do2">Declaración Jurada</string>
+    <string name="bt_do3">Check List de Instalación</string>
+    <string name="bt_do4">Protocolo (ATP)</string>
+
+    <string name="bt_doi5">Información de Proyecto</string>
+
+    <string name="tv_seldocseg">Seleccione Documentación de Seguridad:</string>
+    <string name="bt_ds1">ATS</string>
+    <string name="bt_ds2">CHARLA DE 5 MIN</string>
+    <string name="bt_ds3">PTAR</string>
+    <string name="bt_ds4">CHECK LIST</string>
+    <string name="bt_ds5">DECLARACIÓN JURADA</string>
+
+    <string name="lv_ai1">ListView Acta de Instalacion</string>
+    <string name="tv_codnod">Ingrese código:</string>
+    <string name="et_codnod">CU-0123-A01</string>
+    <string name="tv_foto">Foto</string>
+    <string name="tv_numfot">Numero de foto</string>
+    <string name="tv_description">Descripcion de foto</string>
+    <string name="tv_ejemplo">Ejemplo</string>
+    <string name="bt_capturar">Capturar</string>
+
+    <string name="iv_preview">Imagen previa</string>
+    <string name="iv_foto">Foto Camara</string>
+    <string name="title_activity_acta_de_instalacion_web_view">ActaDeInstalacionWebView</string>
+
+    <string-array name="string_array_actas">
+        <item>9500_MPR</item>
+        <item>PTP_450</item>
+        <item>ePMP_1000</item>
+        <item>Force_180</item>
+    </string-array>
+
+    <string name="external_dir">GetSignature</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
